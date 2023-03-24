@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchases",
+  "info": {
+    "singularName": "purchase",
+    "pluralName": "purchases",
+    "displayName": "purchase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "purchased_at": {
+      "type": "datetime"
+    },
+    "paid": {
+      "type": "boolean"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "books": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "biginteger"
+    }
+  }
+}
